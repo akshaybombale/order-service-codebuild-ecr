@@ -10,8 +10,9 @@ phases:
     commands:
       - echo Build completed  successfully on `date`
       
-#artifacts:
- # files:
- # - target/order-service.jar
- # discard-paths: yes 
+      
+artifacts:
+  files:
+  - ./order-service.jar
+  discard-paths: yes 
 
